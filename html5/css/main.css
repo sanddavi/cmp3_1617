@@ -1,0 +1,75 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+
+   https://color.adobe.com/nl/color1-color-theme-8719187/?showPublished=true
+   ========================================================================== */
+ul{
+    display: -webkit-box;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    margin-top: 2%;
+}
+ul li a{
+    padding: 50px;
+    color: #A49FFF;
+}
+.navbar-inverse .navbar-brand{
+    color: #A49FFF;
+}
+aside{
+    /*background-color: #FFF4D6;*/
+}
+aside h2{
+    color: #A49FFF;
+}
+article h2{
+    color:#FF7E7D;
+}
+body{
+    background: rgba(225, 125, 125, 0.2);; 
+}
+
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top,#B09583 0,#FFF4D6 100%);
+    background-image: -o-linear-gradient(top,#B09583 0,#FFF4D6 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#B09583),to(#FFF4D6));
+    background-image: linear-gradient(to bottom,#B09583 0,#FFF4D6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border: #FFF4D6;
+}
+
+.jumbotron {
+    background-color: #FFF4D6;
+    color: #FF7E7D;
+}
+
+.btn-default {
+    background-image: -webkit-linear-gradient(top,#FF7E7D 0,#A49FFF 100%);
+    background-image: -o-linear-gradient(top,#FF7E7D 0,#A49FFF 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#FF7E7D),to(#A49FFF));
+    background-image: linear-gradient(to bottom,#FF7E7D 0,#A49FFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #dbdbdb;
+    border-color: #ccc;
+    color: #eee;
+    text-transform: uppercase;
+}
+.btn-default:hover, .btn-default:focus {
+    background-color: #A49FFF;
+    background-position: 0 -5px;
+}
+
+
+
+
+
+
+
